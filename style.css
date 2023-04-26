@@ -26,7 +26,7 @@ body {
     height: auto;
     min-width: 100%;
     min-height: 100%;
-    /* object-fit: contain; */
+    object-fit: contain;
 }
 
 /* #textbox {
@@ -69,11 +69,8 @@ body {
 }
 
 #bed-button {
-    /* position: absolute; */
-    top: 75%; /* Thay đổi giá trị này để định vị nút bấm theo chiều dọc */
-    left: 50%; /* Thay đổi giá trị này để định vị nút bấm theo chiều ngang */
-    width: 100px; /* Thay đổi giá trị này để chỉnh kích thước nút bấm */
-    height: 100px; /* Thay đổi giá trị này để chỉnh kích thước nút bấm */
+    width: 100px; 
+    height: 100px; 
     /* background: transparent; */
     border: none;
     cursor: pointer;
@@ -84,3 +81,8 @@ body {
     position: absolute;
     /* Các thuộc tính khác của nút bấm nếu cần */
   }
+
+.hidden {
+    display: none
+
+}
