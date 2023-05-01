@@ -13,7 +13,7 @@ The following technologies and approaches were used to create the game:
 
 ## Live Demo
 
-You can try the live demo of the game at this link: [My Interactive Game](https://your-website-link.com)
+You can try the live demo of the game at this link: [My Interactive Game]([https://your-website-link.com](https://talentran.github.io/DOM-Based-Game/))
 
 ## Installation and Setup
 
