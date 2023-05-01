@@ -21,13 +21,18 @@
     <div id="game" style="display:none;">
         <div id="background-container">
             <img id="background" src="https://cdnb.artstation.com/p/assets/images/images/025/513/449/large/anastasia-evans-bedroom-13-1.jpg?1586030012" alt="Living Room"/>
-            <button id="bed-button" class="moving-button page-1" style="left: 500px; top: 500px"></button>
-            <button id="window-button" class="moving-button page-1" style="left: 300px; top: 300px"></button>
-            <button id="chair-button" class="moving-button page-1" style="left: 700px; top: 700px"></button>
+            <button id="bed-button" class="moving-button page-1" style="left: 800px; top: 800px"></button>
+            <button id="window-button" class="moving-button page-1" style="left: 450px; top: 300px"></button>
+            <button id="chair-button" class="moving-button page-1" style="left: 2250px; top: 650px"></button>
             <!-- <button id="other-button" class="moving-button"></button
             <button id="other-button" class="moving-button"></button>
             <button id="other-button" class="moving-button"></button> -->
 
+        </div>
+
+        <div id="date-time">
+            <span id="day">Day: 1</span>
+            <span id="clock">9:00 AM</span>
         </div>
 
         <div id="bed-dialog" class="dialog">
@@ -50,7 +55,9 @@
         <div id="censored-dialog" class="dialog" style="display:none;">
             <div class="dialog-header" style="color: red;">Censored!</div>
             <div class="dialog-options">
-                <div class="dialog-description">Sorry, but this content has been censored.</div>
+                <div class="dialog-description">Sorry, but this content has been censored. <br><br>
+                    If you want to see uncensored content in the future, please give Tri an applause.
+                </div>
                 <button id="okay-button" class="dialog-option" style="color: pink;">Okay...</button>
             </div>
         </div>
@@ -84,5 +91,6 @@
     <script src="loginScene.js"></script>
     <script src="script.js"></script>
     <script src="windowScene.js"></script>
+    <script src="time.js"></script>
     
 </body>

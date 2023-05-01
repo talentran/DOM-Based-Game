@@ -53,7 +53,7 @@ body {
       cursor: pointer;
   } */
   
-  #change-background {
+  /* #change-background {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -67,7 +67,7 @@ body {
   
   #change-background:hover {
     background: rgba(255, 255, 255, 1);
-  }
+  } */
   
 .tooltip {
   position: absolute;
@@ -82,28 +82,48 @@ body {
   visibility: hidden;
 }
 
+#date-time {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+#day {
+  display: block;
+}
+
+#clock {
+  display: block;
+}
+
   #bed-button {
-    width: 100px;
-    height: 100px;
-    /* background: transparent; */
+    width: 1000px;
+    height: 300px;
+    background: transparent;
     border: none;
     cursor: pointer;
     outline: none;
   }
 
   #window-button {
-    width: 100px;
-    height: 100px;
-    /* background: transparent; */
+    width: 1500px;
+    height: 300px;
+    background: transparent;
     border: none;
     cursor: pointer;
     outline: none;
   }
 
   #chair-button {
-    width: 100px;
-    height: 100px;
-    /* background: transparent; */
+    width: 250px;
+    height: 500px;
+    background: transparent;
     border: none;
     cursor: pointer;
     outline: none;
@@ -227,7 +247,7 @@ body {
 
 #back-to-menu {
     position: absolute;
-    top: 80px;
+    bottom: 20px;
     right: 20px;
     background: rgba(255, 255, 255, 0.8);
     border: none;
@@ -240,6 +260,11 @@ body {
     background: rgba(255, 255, 255, 1);
 }
 
+.dialog-description {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
 .naughty-hover:hover {
     color: red;
   }
